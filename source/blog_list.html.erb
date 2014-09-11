@@ -1,0 +1,79 @@
+<div id="blog-page">
+	<div class="blog-page-body">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="my-blog-list">Blogs</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="blog-box">
+					<h2 class="my-blog-list"><%= link_to 'Projects', '/tags/projects.html' %></h2>
+					<p>Made and contributed to.</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="blog-box">
+					<h2 class="my-blog-list"><%= link_to 'Porfolio', '/resume.html' %></h2>
+					<p>Projects, companies, etc.</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="blog-box">
+					<h2 class="my-blog-list"><%= link_to 'Design', '/tags/design.html' %></h2>
+					<p>And Frontend Development.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6 col-xs-12">
+				<div class="blog-box">
+					<h2 class="my-blog-list"><%= link_to 'Tags', '/tags.html' %></h2>
+						<p>All blogs by Tag.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-xs-12">
+				<div class="blog-box">
+					<h2 class="my-blog-list"><%= link_to 'Bookmarks', '/bookmarks.html' %></h2>
+					<p>References and things.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div> 
+
+<!-- 	<div class="row">
+		<div class="col-md-6">
+			<div class="blog-box">
+				<h2 class="my-blog-list">Browse Blogs By Tags</h2>
+	            <ol>
+	              <% blog.tags.each do |tag, articles| %>
+	                <li><%= link_to tag, tag_path(tag) %> (<%= articles.size %>)</a></li>
+	              <% end %>
+	            </ol>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="blog-box">
+				<h2 class="my-blog-list">Most Recent</h2>
+				<ol>
+	              	<% blog.articles[0...10].each do |article| %>
+	                <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
+	              	<% end %>
+	            </ol>
+			</div>
+		</div>
+	</div> -->
+
+	<!-- <div class="col-md-4 col-sm-6 col-xs-12">
+	<div class="blog-box">
+		<h2 class="my-blog-list"><%= link_to 'Learning', '/tags/learning.html' %></h2>
+		<p>All blogs about the process of learning from courses I've taken to problems I've encountered and solutions I managed to figure out along the way.</p>
+	</div>
+</div> -->
+<!-- <div class="col-md-6 col-xs-12">
+	<div class="blog-box">
+		<h2 class="my-blog-list"><%= link_to 'Adventures', '/tags/adventures.html' %></h2>
+		<p>Life is about the Adventures. These are blogs about everything from travelling to cooking, but I try to incorporate some technology or design into each one in order to continue my study of task guided solutions.</p>
+	</div> -->

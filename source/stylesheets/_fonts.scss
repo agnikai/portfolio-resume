@@ -1,0 +1,74 @@
+%Poiret {
+	font-family: 'Poiret One', cursive;
+
+}
+%Roboto {
+	font-family: 'Roboto Slab', serif;
+}
+
+%Raleway {
+	font-family: 'Raleway', serif;
+}
+
+%philosopher {
+	font-family: 'Philosopher', sans-serif;
+}
+
+%gent {
+	font-family: 'Gentium Basic', serif;
+}
+
+%warm-fatface {
+	font-family: 'Abril Fatface', cursive;
+	text-align: center;
+	background-image: -webkit-gradient(linear,
+	left top, left bottom,
+	from(#FFE4E1),
+	to(#FA8072)
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin: 50px 0;
+}
+
+%warm-font {
+	background-image: -webkit-gradient(linear,
+	left top, left bottom,
+	from(#FFE4E1),
+	to(#FA8072)
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+%green-font {
+	font-family: 'Abril Fatface', cursive;
+	background-image: -webkit-gradient(linear,
+	left top, left bottom,
+	from(#C5E3BF),
+	to(#699864)
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+%warm-link-font {
+	font-family: 'Helvetica', sans-serif;
+	color: #FA8072;
+	font-weight: bold;
+	font-size: 18px;
+	&:hover {
+		font-style: italic;
+		text-decoration: none;
+		color: purple;
+	}
+}
+
+%cookie-font {
+	font: 400 30px/0.8 'Cookie', Helvetica, sans-serif;
+	text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+}
+
+%p-font {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
