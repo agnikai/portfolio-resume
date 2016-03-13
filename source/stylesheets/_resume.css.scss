@@ -1,4 +1,13 @@
 .yoga_resume {
+	h1 {
+		@extend %warm-fatface;
+	}
+	h2 {
+		@extend %warm-fatface;
+	}
+	p {
+		font-size: 25px;
+	}
 	.yoga_row {
 		margin-bottom: 20px;
 		margin-top: 20px;
@@ -7,8 +16,12 @@
 	.yoga_info_row {
 		padding: 10%;
 		p {
-			font-size: 20px;
+			font-size: 15px;
 			font-family: 'Raleway', sans-serif;
+		}
+		h3 {
+			@extend %warm-fatface;
+			font-size: 30px;
 		}
 	}
 	.cert_info {
