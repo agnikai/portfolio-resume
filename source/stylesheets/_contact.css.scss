@@ -1,0 +1,22 @@
+.contact {
+	h1 {
+		@extend %warm-fatface;
+		font-size: 80px;
+	}
+	#contact_carousel {
+		.carousel-caption {
+			top: 150px;
+			background-color: #000;
+			opacity: 0.5;
+			h2 {
+				@extend %warm-fatface;
+				font-size: 80px;
+			}
+		}
+		img {
+			max-height: 675px;
+
+		}
+		// background: image_url('../images/home/pstrip2.jpg');
+	}
+}
