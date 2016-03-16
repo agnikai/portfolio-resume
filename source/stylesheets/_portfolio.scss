@@ -1,6 +1,6 @@
 //RESUME>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 div#portfolio-page {
-	@extend %soft-warm-background;
+	// @extend %soft-warm-background;
 	div.portfolio-body {
 		background-color: white;
 		margin: 0 100px;
@@ -11,9 +11,6 @@ div#portfolio-page {
 			margin: 0;
 		}
 		h1#portfolio {
-			// font-family: 'Berkshire Swash', cursive;
-			// text-align: center;
-			// color: blue;
 			@extend %warm-fatface;
 			font-size: 60px;
 			margin: 30px 0;
