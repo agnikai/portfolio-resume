@@ -32,3 +32,25 @@
 		background: image_url('../images/home/purple-tree2.jpg');	
 	}
 }
+
+#resume-page {
+
+	h3 {
+		@extend %Poiret;
+		font-size: 50px;
+	}
+	h4 {
+		@extend %Poiret;
+		font-size: 20px;
+	}
+	h5 {
+		@extend %Roboto;
+		font-size: 15px;
+		font-weight: bold;
+	}
+	p {
+		@extend %Roboto;
+		font-size: 12px;
+		padding: 5%;
+	}
+}
