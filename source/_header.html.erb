@@ -1,10 +1,24 @@
-<header>
+<header class="aniview" av-animation="pulse">
+  <nav class="navbar navbar-default">
+    	<div class="container-fluid">
+    		<div class="navbar-header">
+        		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          		<span class="sr-only">Toggle navigation</span>
+          		<span class="icon-bar"></span>
+          		<span class="icon-bar"></span>
+          		<span class="icon-bar"></span>
+        		</button>
+        		<h1 class="name-brand navbar-brand"><%= link_to 'Jacquelyn', '/' %></h1>
+      	</div>
 
-	<div class="row">
-      <div class="col-md-12">
-        <h1 id="portfolio">Jacquelyn Carver</h1>
-        <h2 id="portfolio">jacquelyn905@gmail.com | github.com/agnikai</h2>
-      </div>
-    </div>
+      	<ul class="nav navbar-nav navbar-right">
+          	<li><h3><%= link_to 'About Me', 'about.html' %></h3></li>
+          	<li><h3><%= link_to 'Programming', 'programming_resume.html' %></h3></li>
+          	<li><h3><%= link_to 'Yoga', 'yoga_resume.html' %></h3></li>
+          	<li><h3><%= link_to 'Writing', 'writing_resume.html' %></h3></li>
+          	<li><h3><%= link_to 'General', 'general_resume.html' %></h3></li>
+  	    </ul>
+  	</div>
+  </nav>
 
 </header>
