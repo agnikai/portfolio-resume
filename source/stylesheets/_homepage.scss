@@ -1,167 +1,116 @@
 //HOME PAGE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-div#intro{
-	background: image-url("images/home/purple-tree2.jpg") 50% 0 no-repeat fixed;
-	color: white;
-	height: 600px;
-	margin: 0 auto;
-	padding: 0;
-	width: 100%;
-	display: block;
-	@media(max-width: 498px) {
-		height: 400px;
+.img_border {
+	border: 5px solid gray;
+}
+.home {
+	margin-top: 5%;
+	#intro {
+		img.headshot {
+			max-height: 400px;
+			margin-left: 25%;
+		}
+		h1.welcome {
+			animation-delay: 1s;
+			font-family: 'Poiret One', sans-serif;
+			color: #000;
+			font-size: 100px;
+		}
+		p.intro_p {
+			font-family: 'Poiret One', sans-serif;
+			font-size: 20px;
+		}
+		p.intro_1 {
+			animation-delay: 1.2s;
+		}
+		p.intro_2 {
+			animation-delay: 1.4s;
+		}
+		p.intro_3 {
+			animation-delay: 1.6s;
+		}
 	}
-}
-
-div.story {
-	margin: 0 auto;
-	min-width: 980px;
-	overflow: auto;
-	width: 1200px;
-	display: block;
-}
-
-div.float-left{
-	padding: 100px 0 0 0;
-	position: relative;
-	width: 350px;
-	float: left;
-	margin: 0 0 0 20px;
-	display: block;
-}
-
-div.introduction {
-	background-color: lighten(black, 10%);
-	padding: 25px 0;
-}
-
-h2.name-tag {
-	background-color: none;
-	background-image: -webkit-gradient(linear,
-	left top, left bottom,
-	from(#4b0082),
-	to(#DB70DB)
-	);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	font-style: italic;
-	font-weight: bold;
-	text-align: right;
-	margin-top: 0px;
-	padding-left: 0px;
-	padding-top: 0px;
-  	font: 400 80px/1.3 'Arizonia', Helvetica, sans-serif;
-  	text-shadow: 4px 4px 0px rgba(0,0,0,0.1);		
-}
-
-p.homepage-description {
-  // font: 400 25px/0.8 'Cookie', Helvetica, sans-serif;
-  @extend %Raleway;
-  @extend %warm-font;
-  // text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
-  font-size: 16px;
-  text-align: center;
-  padding: 40px 200px;
-  @media(max-width: 498px) {
-  	padding: 20px;
-  }
-}
-
-div#second {
-	background: image-url("images/home/flowers1.jpg") 50% 0 no-repeat fixed;
-	background-color: black;
-	color: white;
-	height: 500px;
-	padding: 0 0 0 20px;
-	display: block;
-	@media(max-width: 498px) {
-		height: 200px;
-		background: image-url("images/home/flowers-mini.jpg") 50% 0 no-repeat fixed;
-		background-position: 60% 45px;
-		height: 270px;
-	}
-}
-
-div.float-right {
-	padding: 10px 0 90px 0;
-	position: relative;
-	width: 330px;
-	float: right;
-	margin: 150px 20px 0px 0px;
-	display: block;
-	background: black;
-	opacity: 0.5;
-}
-
-div.story div.footer {
-	padding-top: 30px;
-	div.footer-text {
-		padding-top: 40px;
-		p.footer {
-			:first-child {
-				padding-top: 30px;
+	ul#home_resume_list {
+		margin-top: 10em;
+		li {
+			margin-top: 5em;
+			h2.link_header a {
+				font-family: 'Poiret One', sans-serif;
+				font-size: 50px;
+				color: #000;
 			}
-			@extend %warm-font;
-			text-align: left;
-			margin-left: -100px;
-			font-size: 16px;
-			@media(max-width: 498px) {
-				margin-left: 90px;
+			img {
+				max-height: 200px;
 			}
-			a {
-				@extend %warm-link-font;
-				text-align: left;
-				color: #DB70DB;
-				font-size: 16px;
+
+			#about_me_link_row {
+				margin-top: 15em;
+
+				img.about_image_1 {
+					margin-top: 30px;
+				}
+				img.about_image_2 {
+					animation-delay: 0.5s;
+					margin-bottom: 40px;
+				}
+				img.about_image_3 {
+					margin-right: 70px;
+					margin-top: 60px;
+					animation-delay: 0.8s;
+				}
+				img.about_image_4 {
+					animation-delay: 1s;
+				}
+			}
+
+			#yoga_link_row {
+				h2 {
+					margin-top: 40px;
+				}
+				p.yoga_description {
+					margin-top: 70px;
+					font-size: 15px;
+					font-family: 'Berkshire Swash', serif;
+					animation-delay: 0.5s;
+					font-weight: normal;
+				}
+				img.yoga_image {
+					border: 5px solid gray;
+					margin: 50px;
+				}
+				img.yoga_image_1 {
+					animation-delay: 1s;
+					margin-left: 0;
+					margin-top: -10px;
+				}
+				img.yoga_image_2 {
+					animation-delay: 1.3s;
+					margin-left: 75px;
+					margin-top: 10px;
+				}
+				img.yoga_image_3 {
+					animation-delay: 1.6s;
+					margin-left: 0;
+					margin-top: 100px;
+				}
+			}
+
+			#programming_link_row {
+				img.pg_image {
+					border: 5px solid gray;
+				}
+				img.pg_image_1 {
+					margin-left: 30px;
+					margin-top: 90px;
+				}
+				img.pg_image_2 {
+					margin-left: 0;
+					margin-bottom: 70px;
+				}
+				img.pg_image_3 {
+					margin-right: 100px;
+				}
+
 			}
 		}
 	}
-}
-
-div.footer img#sunglasses {
-	border: 10px solid gray;
-	margin-left: 300px;
-	@media(max-width: 498px) {
-		margin-left: 70px;
-	}
-
-}
-
-div#third {
-	background: image-url("images/home/water.jpg") 50% 0 no-repeat fixed;
-	background-color: black;
-	color: white;
-	height: 500px;
-	margin: 0 auto;
-	overflow: hidden;
-	padding: 0;
-	width: 100%;
-	display: block;
-}
-
-div#fouth {
-	background-image: -ms-linear-gradient(bottom, #B5B5B5 0%, #000305 100%);
-	background-image: -moz-linear-gradient(bottom, #B5B5B5 0%, #000305 100%);
-	background-image: -o-linear-gradient(bottom, #B5B5B5 0%, #000305 100%);
-	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #B5B5B5), color-stop(1, #000305));
-	background-image: -webkit-linear-gradient(bottom, #B5B5B5 0%, #000305 100%);
-	background-image: linear-gradient(to top, #B5B5B5 0%, #000305 100%);
-	color: white;
-	height: 500px;
-	margin: 0 auto;
-	overflow: hidden;
-	padding: 0;
-	width: 100%;
-	display: block;
-}
-
-div#fifth {
-	background: image-url("images/home/pstrip2.jpg") 50% 0 no-repeat fixed;
-	background-color: black;
-	color: white;
-	height: 500px;
-	margin: 0 auto;
-	overflow: hidden;
-	padding: 0;
-	width: 100%;
-	display: block;
 }
