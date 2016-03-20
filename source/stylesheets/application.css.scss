@@ -1,10 +1,8 @@
 @import 'bootstrap';
 @import 'header';
 @import 'fonts';
-@import 'background';
 @import 'homepage';
 @import 'portfolio';
-@import 'animations';
 @import 'resume';
 @import 'about';
 @import 'contact';
@@ -184,28 +182,6 @@ ul {
 }
 
 
-//PROGJECTS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-div.projects-page { 
-	margin: 0 100px;
-	div.projects-body{
-		h1.projects {
-			@extend %warm-fatface;
-			font-size: 50px;
-		}
-		h2.about {
-			@extend %philosopher;
-			font-size: 40px;
-			color: black;
-		}
-		p {
-			@extend %gent;
-			font-size: 15px;
-		}
-		div.row.show {
-			margin: 80px 20px;
-		}
-	}
-}
 
 
 
