@@ -1,43 +1,32 @@
 //Header >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-header.hidden-xs {
-	text-align: center;
-	padding: 20px;
-	background-color: black;
-	nav.navbar.navbar-default.navbar-fixed-top {
-		padding-top: 15px;
-		a {
-			@extend %cookie-font;
-			padding: 30px;
-			color: black;
-			&:hover{
-				text-decoration: none;
-				color: purple;
+nav.navbar.navbar-default {
+
+	max-height: 70px;
+	width: 100%;
+
+	.navbar-header {
+		h1.name-brand.navbar-brand {
+			margin: 0;
+			a {
+				font-family: 'Poiret One', sans-serif;
+				font-size: 30px;
+				color: #000;
+				margin-top: 0;
 			}
 		}
 	}
-}
 
-//Mobile Header >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-header.visible-xs {
-	background-color: white;
-	margin-bottom: 50px;
-}
-button.btn.dropdown-toggle, {
-	text-align: center;
-	color: #DB70DB;
-	@extend %cookie-font;
-	background-color: white;
-}
+	ul.nav.navbar-nav.navbar-right {
+		li {
+			h3 a {
+				font-family: 'Poiret One', sans-serif;
+				color: #000;
+				padding: 10px;
+				border-radius: 5px;
 
-ul.dropdown-menu {
-	li.mini-header-links {
-		font-family: 'Palantino', sans-serif;
-		a{
-			@extend #warm-link-font;
-			background-color: white;
-			&:hover {
-				background-color: white;
-				color: black;
+				&:hover {
+					background-color: gray;
+				}
 			}
 		}
 	}
