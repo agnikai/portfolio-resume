@@ -3,12 +3,6 @@
 //= require jquery.aniview.min.js
 
 
-$(document).ready(function() {
-	$('.cool-person-popup-link').magnificPopup({ 
-	  type: 'image'
-	});
-	   
-});
 
  $(document).ready(function(){
 
