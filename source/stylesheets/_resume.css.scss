@@ -1,6 +1,8 @@
 .yoga_resume {
 	h1 {
-		@extend %warm-fatface;
+		font-family: 'Poiret One', serif;
+		text-align: center;
+		font-size: 40px;
 	}
 	h2 {
 		@extend %warm-fatface;
@@ -25,11 +27,11 @@
 			font-size: 50px;
 		}
 	}
-	.cert_info {
-		background: image_url('../images/home/water.jpg');
-	}
-	.y_e1 {
-		background: image_url('../images/home/purple-tree2.jpg');	
+
+	#fun_yoga_stuff {
+		img {
+			max-height: 400px;
+		}
 	}
 }
 
@@ -42,6 +44,7 @@
 	h4 {
 		@extend %Poiret;
 		font-size: 20px;
+		margin-top: 5%;
 	}
 	h5 {
 		@extend %Roboto;
@@ -51,6 +54,19 @@
 	p {
 		@extend %Roboto;
 		font-size: 12px;
-		padding: 5%;
+		padding: 0 25%;
+	}
+
+	.resume-skills {
+		h4, h3 {
+			text-align: center;
+		}
+		ul {
+			list-style: circle;
+			text-align: left;
+			@extend %Roboto;
+			font-size: 12px;
+			line-height: 2em;
+		}
 	}
 }
