@@ -1,6 +1,7 @@
 .about_me {
 	h1 {
 		@extend %warm-fatface;
+		font-family: 'Akronim', sans-serif;
 		font-size: 50px;
 	}
 	.about_info_row {
@@ -15,12 +16,22 @@
 			margin-right: auto;
 			margin-left: auto;
 		}
+
+		img {
+			max-height: 400px;
+			margin-left: 40%;
+
+			@media-screen-sm {
+				margin-left: 5%;
+			}
+		}
 	}
 	.about_img_row1 {
-		img {
+		img.photo-strip {
 			max-width: 1000px;
 			margin-left: auto;
 			margin-right: auto;
+			animation-delay: 1s;
 		}
 	}
 }
