@@ -1,7 +1,14 @@
+/* Example, to use put an = before the require file
+ * require lightgallery/dist/css/lightgallery.css
+ */
+
+
+
 @import 'bootstrap';
 @import 'header';
 @import 'fonts';
 @import 'footer';
+@import 'fun_stuff';
 @import 'homepage';
 @import 'portfolio';
 @import 'resume';
@@ -10,66 +17,6 @@
 
 
 
-
-
-
-//BLOG_LIST PAGE>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-h1.my-blog-list {
-	@extend %warm-fatface;
-	text-align: center;
-	// background-image: -webkit-gradient(linear,
-	// left top, left bottom,
-	// from(#f3ece2),
-	// to(#608341)
-	// );
-	// -webkit-background-clip: text;
-	// -webkit-text-fill-color: transparent;
-	margin-top: 30px;
-	// font-family: 'Abril Fatface', cursive;
-	font-size: 50px;
-}
-
-div#blog-page {
-	// background: -o-linear-gradient(#f3ece2, lighten(#DB70DB, 10%), darken(#DB70DB, 20%)); /* For Opera 11.1 to 12.0 */
-	// background: -moz-linear-gradient(#f3ece2, lighten(#DB70DB, 10%), darken(#DB70DB, 20%)); /* For Firefox 3.6 to 15 */
-	// background: linear-gradient(#f3ece2, lighten(#DB70DB, 10%), darken(#DB70DB, 20%)); /* Standard syntax */
-	@extend %purple-gradient;
-	div.blog-page-body {
-		background-color: white;
-		margin: 0 100px;
-		padding: 0 70px;
-		@media(max-width: 498px) {
-			margin: 0 20px;
-			padding: 0 5px;
-		}
-		div.blog-box {
-			// background: -o-linear-gradient(#f3ece2, #CFDBC5, #608341); /* For Opera 11.1 to 12.0 */
-			// background: -moz-linear-gradient(#f3ece2, #CFDBC5, #608341); /* For Firefox 3.6 to 15 */
-			// background: linear-gradient(#f3ece2, #CFDBC5, #608341); /* Standard syntax */
-			margin: 0;
-			// border: 1px solid black;
-			padding: 50px 10px 0 10px;
-			height: 350px;
-			p {
-				margin-top: -25px;
-				@extend %Raleway;
-				font-size: 14px;
-			}
-			h2.my-blog-list {
-				margin-top: -40px;
-				a {
-					font: 400 40px/0.8 'Cookie', Helvetica, sans-serif;
-	  				color: green;
-	  				text-align: center;
-	  				&:hover {
-	  					color: black;
-	  					text-decoration: none;
-	  				}
-				}
-			}
-		}
-	}
-}
 
 //RESUME>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 div#portfolio-page {
