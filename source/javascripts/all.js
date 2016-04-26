@@ -3,9 +3,10 @@
 //= require lightgallery/dist/js/lightgallery-all.js
 
 
+
  $(document).ready(function(){
 
- 	$("#lightgallery").lightGallery();
+ 	$("#lightgallery").lightGallery({});
  	$("#edit-lightgallery").lightGallery();
 
 	var options = {
