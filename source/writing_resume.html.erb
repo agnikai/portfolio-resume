@@ -3,7 +3,13 @@
 
     <%= partial(:header) %>
 
-    <div class="row show-row">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 id="portfolio" class="aniview" av-animation="fadeInUp">Porfolio of Writing</h3>
+      </div>
+    </div>
+
+    <div class="row show-row aniview" av-animation="fadeInUp">
       <div class="col-md-6 col-xs-12">
         <h4 class="portfolio">Mark Gallery</h4>
         <h5 class="portfolio">Modern Art Gallery</h5>
@@ -15,7 +21,7 @@
         <img class="portfolio img-responsive" src="/images/main/markgallery-home.jpg" />
       </div>
     </div>
-    <div class="row show-row">
+    <div class="row show-row aniview" av-animation="fadeInUp">
       <div class="col-md-6 col-xs-12">
         <img class="portfolio img-responsive" src="/images/home/chaos_blog.png" />
       </div>
@@ -26,7 +32,19 @@
         </div>
     </div>
   </div>
-  
-  <%= partial(:footer) %>
+
+  <div class="row">
+    <div class="col-sm-12">
+      <h3 id="portfolio" class="aniview" av-animation="fadeInUp">Social Media &amp; Copywriting</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6 col-xs-12">
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmezzawestwood%2Fposts%2F1243006185715134%3A0&width=500" width="500" height="687" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+    </div>
+    <div class="col-sm-6 col-xs-12">
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmezzawestwood%2Fposts%2F1271812056167880&width=500" width="500" height="1000" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+    </div>
+  </div>
 
 </div>
